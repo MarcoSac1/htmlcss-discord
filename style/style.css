@@ -7,6 +7,7 @@
 body{
     max-width: 1200px;
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header > section{
@@ -18,6 +19,9 @@ header > section{
     padding: 1rem 0;
 }
 
+h2{
+    font-size: 30px;
+}
 ul{
     display: flex;
     list-style: none;
@@ -40,7 +44,7 @@ main > section{
 }
 
 div.column{
-    /* padding: 2rem; */
+    padding: 2rem;
 }
 
 div.column-small{
@@ -114,10 +118,19 @@ footer>h2,
 
 .container{
     display: flex;
+    justify-content: flex-end;
+    text-align: center;
 }
 
+.row-social{
+    width: 25%;
+}
+
+.bandiera{
+    height: .5rem;
+}
 .row{
-    padding: 10px 10px ;
+    padding: 10px 10px;
     width: 15%;
     margin-left: 40px;
 }
@@ -137,6 +150,11 @@ footer div >h2{
 
 .link{
     color: white;
+}
+
+.fa{
+    background-color: white;
+    padding-left: 5px;
 }
 
 .bottom{
