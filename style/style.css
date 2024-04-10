@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header > section{
+    background-color:#255ee9;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+ul>li{
+    padding: 0 1rem;
+}
+
+.flex-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+main > section{
+    padding: 4rem;
+}
+
+div.column{
+    /* padding: 2rem; */
+}
+
+div.column-small{
+    width: 30%;
+}
+
+div.column-big{
+    width: 60%;
+    
+} 
+section div img{
+    width: 100%;
+}
+
+.found{
+    flex-direction: row-reverse;
+}
+
+button{
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 25px;
+    margin-right: .8rem;
+}
+.black{
+    background-color: #23272a;
+    color: white;
+}
+
+.purple{
+    background-color: #7289da;
+    color: white;
+    margin-top: 1rem;
+}
+
+h2.white,
+.downloadzone{
+    padding-bottom: 1rem;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.download{
+    display: block;
+    justify-content: center;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding: 10rem;
+}
+
+.download-foot{
+    justify-content: center;
+    text-align: center;
+    
+}
+
+footer {
+    background-color: #23272a;
+    padding: 3rem;
+    
+}
+
+footer>h2,
+.link{
+    color: #7289da;
+}
+
+.container{
+    display: flex;
+}
+
+.row{
+    padding: 10px 10px ;
+    width: 15%;
+    margin-left: 40px;
+}
+
+.footer-col{
+    padding: 0 15px;
+    margin-bottom: 1rem;
+}
+
+h4{
+    color: #7289da;
+}
+
+footer div >h2{
+    color:#7289da
+}
+
+.link{
+    color: white;
+}
+
+.bottom{
+    border-top:#7289da 2px solid;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
